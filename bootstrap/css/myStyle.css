@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'BLotus';
+  src: url('../fonts/BLotus.eot?#') format('eot'),  /* IE6?8 */
+       url('../fonts/BLotus.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BLotus.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BNazanin';
+  src: url('../fonts/BNazanin.eot?#') format('eot'),  /* IE6?8 */
+       url('../fonts/BNazanin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BNazanin.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6?8 */
+       url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BYekan.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */
+}
+body{
+    background: url(../../images/bgs.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+th{
+    direction: rtl;
+    text-align: right;
+}
+.indexTable{
+    font-family: 'BLotus';
+}
+.myAlert{
+    direction: rtl;
+    font-family: 'BNazanin';
+    font-size: 16px;
+    text-align: right;
+    width: 98%;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 5px;
+}
